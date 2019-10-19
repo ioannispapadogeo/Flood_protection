@@ -1,4 +1,4 @@
-#Flood Protection and Mitigation: A model-based study of the IJssel River
+Flood Protection and Mitigation: A model-based study of the IJssel River
 
 In this modelling assignment, the hypothetical client is Rijkswaterstaat which is part of Ministry of Infrastructure and Water Management in the Netherlands. The client’s mandate is the safety of the citizens, being in charge of forwarding and executing policy implementations for their well being. Three distinctly different policies which are thoroughly explained in the Discussion are generated using a Many Objective Robust Optimization (MORO) algorithm. It is important for the client to guarantee the mitigation of the potential damages and deaths, while keeping the costs to a minimum.
 
