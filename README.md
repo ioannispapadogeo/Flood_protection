@@ -1,2 +1,13 @@
-# flood_protection
-Flood Protection and Mitigation: A model-based study of the IJssel River
+#Flood Protection and Mitigation: A model-based study of the IJssel River
+
+In this modelling assignment, the hypothetical client is Rijkswaterstaat which is part of Ministry of Infrastructure and Water Management in the Netherlands. The client’s mandate is the safety of the citizens, being in charge of forwarding and executing policy implementations for their well being. Three distinctly different policies which are thoroughly explained in the Discussion are generated using a Many Objective Robust Optimization (MORO) algorithm. It is important for the client to guarantee the mitigation of the potential damages and deaths, while keeping the costs to a minimum.
+
+Seven objectives are considered in total following the socio-economic aspect of policy implementation. However, each of the defined objectives cannot be fully satisfied, implying that several trade-offs need to be addressed by the decision maker. EMA workbench will be used as a supporting tool to assist the decisionmaking process, following through an exploratory modelling approach.
+
+The analysis begins with the identification of the worst case scenario which is used as the reference scenario for performing SOBOL sensitivity analysis. A better understanding of the vulnerabilities and opportunities is gained by identifying constraints to be used as an input for the optimization step. This helps to comprehend the effectiveness of individual policy results but also the correlation between them. In this case, MORDM optimization algorithm is used which uses the worst-case scenario as a reference and gets the top quartiles from the results as a constraint value. Assuming that the results extracted from the optimization are optimum, they will be used as MORO’s threshold for each outcome of interest and be further used to get optimum policy results. Scenario discovery is then used to identify proper triggers for adaptive policy. Finally, regret matrix and open exploration are used in the final step, in order to cauge the policy performance.
+
+The policy proposes large increases in dike height working downstream, reducing the total increase the further the location is from the starting point. In the very prone area at Zutphen it would then be recommended to utilise a combination of room for the river (RfR) and dike increase. This should then also be done in the following area to ease the flow significantly enough to reduce the damage and mostly loss of life significantly. The cost of this policy is really low in comparison reaching just over 600 million, which provides plenty of room to negotiate compensation packages.
+
+The results are further elaborated in the report file "Flood Protection.pdf".
+
+
